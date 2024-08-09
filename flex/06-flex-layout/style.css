@@ -24,3 +24,61 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-self: flex-start
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 180px;
+}
+
+.footer {
+  background-color: #edf0ee;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 10px;
+  align-self: flex-end;
+}
+
+.left-links {
+  display: flex;
+  gap: 10px;
+}
+
+.right-links {
+  display: flex;
+  gap: 10px;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+a:link {
+  color: #252627;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4D5D53;
+}
+
+
